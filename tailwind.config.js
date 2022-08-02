@@ -14,6 +14,8 @@ module.exports = {
             light: '#AA0601',
             DEFAULT: '#650300',
         },
+        'p-brown':'#5F3E2D',
+        'p-brown-light':'#B75929',
         'skin':'#FBF2F2',
       }
     },
