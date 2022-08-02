@@ -6,18 +6,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+  <link rel="stylesheet" href="./assets/style/style.scss">
   <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <header class="header">
-    這是 header
+  <header>
+      <nav class="bg-maroon-light text-white">
+          <div class="container px-0 sm:px-3 sm:flex sm:justify-between sm:items-center">
+            <a class="block py-1" href="#"><img class="w-20 h-[72px] object-contain mx-auto" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo"></a> 
+          <ul class="flex flex-wrap">
+            <li class="w-1/2 text-center border border-white border-solid sm:border-0 sm:w-auto"><a class="px-8" href="#">鏡框系列</a></li>
+            <li class="w-1/2 text-center border border-white border-solid sm:border-0 sm:w-auto"><a class="px-8" href="#">門市據點</a></li>
+            <li class="w-1/2 text-center border border-t-0 border-white border-solid sm:border-0 sm:w-auto"><a class="px-8" href="#">部落格</a></li>
+            <li class="w-1/2 text-center border border-t-0 border-white border-solid sm:border-0 sm:w-auto"><a class="" href="#">常見問題</a></li>
+          </ul>
+        </div>
+      </nav>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
+  <footer class="bg-maroon-light">
+      <div class="container">
+          <div class="footer-nav">
+              <div class="hidden sm:block">
+                  <ul>
+                      <li><a href="#">首頁</a></li>
+                      <li><a href="#">系列鏡框</a></li>
+                      <li><a href="#">門市據點</a></li>
+                      <li><a href="#">部落格</a></li>
+                      <li><a href="#">常見問題</a></li>
+                  </ul>
+              </div>
+              <div class="footer-logo">
+                  <ul>
+                      <li><i class="fa-brands fa-facebook fa-6x"></i></li>
+                      <li><i class="fa-brands fa-instagram fa-6x"></i></li>
+                      <li class="line"><i class="fa-brands fa-line fa-6x"></i></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer-contact">
+              <ul>
+                  <li><i class="fa-solid fa-phone fa-6x"></i><a href="tel:0800-000-000">0800-000-000</a></li>
+                  <li><i class="fa-regular fa-envelope fa-6x"></i><a href="mailto:glasses@business.com">glasses@business.com</a></li>
+              </ul>
+          </div>
+          <div class="footer-copyright">
+              <p>Copyright © 2020 Glasses.All rights reserved.</p>
+              <ul>
+                  <li><a href="#">隱私權政策</a></li>
+                  <li class="margin"><a href="#">服務條款</a></li>
+              </ul>
+          </div>
+        </div>
   </footer>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
