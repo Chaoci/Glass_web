@@ -6,21 +6,24 @@ current: product
 ---
     <div>
         <div class="container px-0">
+            <!-- 第一個選項維持底線呈現 為選擇的頁面選項 -->
             <ul class="grid grid-cols-3 text-base md:text-[32px] md:leading-normal font-bold">
-                <a class="border-r border-gray border-l hover:border-b-8 hover:border-b-maroon-light" href="#"><li class="text-center py-4" >OPTICAL</li></a>
-                <a class="border-r hover:border-b-8 hover:border-b-maroon-light" href="#"><li class="text-center py-4">SUNGLASSES</li></a>
-                <a class="border-r hover:border-b-8 hover:border-b-maroon-light"  href="#"><li class="text-center py-4">FUNCTIONAL</li></a>
+                <a class="border-b-8 border-b-maroon-light border-r border-gray border-l hover:border-b-8 hover:border-b-maroon-light" href="/product.html"><li class="text-center py-4" >OPTICAL</li></a>
+                <a class="focus:border-b-8 focus:border-b-maroon-light border-r hover:border-b-8 hover:border-b-maroon-light" href="#"><li class="text-center py-4">SUNGLASSES</li></a>
+                <a class="focus:border-b-8 focus:border-b-maroon-light border-r hover:border-b-8 hover:border-b-maroon-light"  href="#"><li class="text-center py-4">FUNCTIONAL</li></a>
             </ul>
         </div>
         <div class="flex">
-            <img class="w-1/2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true" alt="headphoto1">
-            <img class="w-1/2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true" alt="headphoto2">
+            <img class="w-1/2 lg:hidden" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true" alt="headphoto1">
+            <img class="w-1/2 hidden lg:block" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true" alt="bigheadphoto1">
+            <img class="w-1/2 lg:hidden" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true" alt="headphoto2">
+            <img class="w-1/2 hidden lg:block" src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true" alt="bigheadphoto2">
         </div>
-        <div class="mt-10 mb-6">
-            <h1 class="text-center text-2xl leading-normal">Celluloid Combi<br>賽璐珞鈦金屬混合鏡框</h1>
+        <div class="mt-10 md:mb-8">
+            <h1 class="text-center text-2xl leading-normal md:text-[42px] md:leading-normal">Celluloid Combi<br>賽璐珞鈦金屬混合鏡框</h1>
         </div>
-        <div class="container">
-            <div class="product">
+        <div class="container sm:grid sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
+            <div class="product mt-6">
                 <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-1.png?raw=true" alt="product1">
                 <div class="flex justify-between">
                     <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
@@ -31,9 +34,153 @@ current: product
                     <div class="w-6 h-6 bg-p-brown-light rounded"></div>
                 </div>
             </div>
+            <div class="product2 mt-6">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-2.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product3 mt-6">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-3.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product4 mt-6">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-4.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product5 mt-6 mb-16 sm:mb-0">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-5.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product mt-6 hidden sm:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-1.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product2 mt-6 hidden sm:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-2.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product3 mt-6 hidden sm:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-3.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product4 mt-6 hidden sm:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-4.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product5 mt-6 mb-16 hidden sm:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-5.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product4 mt-6 hidden lg:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-4.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
+            <div class="product5 mt-6 mb-16 hidden lg:block">
+                <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-5.png?raw=true" alt="product1">
+                <div class="flex justify-between">
+                    <h2 class="text-2xl leading-normal font-bold">BJ41600S</h2>
+                    <p class="text-2xl leading-normal text-maroon-light font-bold">NTD3,490</p>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-6 h-6 bg-p-brown rounded"></div>
+                    <div class="w-6 h-6 bg-p-brown-light rounded"></div>
+                </div>
+            </div>
         </div>
-        <div class="box h-20 bg-slate-600">
-            
+        <div class="flex justify-center mb-14">
+            <ul class="flex text-base bg-white">
+                <a class="hover:bg-black hover:text-white border border-black px-2 py-2 leading-[26px]" href="#">
+                    <li>上一頁</li>
+                </a>
+                <a class="hover:bg-black hover:text-white border border-l-0 border-black px-4 py-2 flex items-center" href="#">
+                    <li>1</li>
+                </a>
+                <a class="hover:bg-black hover:text-white border border-l-0 border-black px-4 py-2 flex items-center" href="#">
+                    <li>2</li>
+                </a>
+                <a class="hover:bg-black hover:text-white border border-l-0 border-black px-4 py-2 flex items-center" href="#">
+                    <li>3</li>
+                </a>
+                <a class="hover:bg-black hover:text-white border border-l-0 border-black px-4 py-2 flex items-center" href="#">
+                    <li>4</li>
+                </a>
+                <a class="hover:bg-black hover:text-white border border-l-0 border-black px-4 py-2 flex items-center" href="#">
+                    <li>5</li>
+                </a>
+                <a class="hover:bg-black hover:text-white bg-[#F2F2F2] border border-l-0 border-black px-2 py-2 leading-[26px]" href="#">
+                    <li>下一頁</li>
+                </a>
+            </ul>
         </div>
+    </div>
     </div>
 
